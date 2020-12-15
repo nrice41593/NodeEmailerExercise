@@ -16,3 +16,5 @@ transporter.sendMail(mailOptions, function(error, info){
     console.log('Email sent: ' + info.response);
   }
 });
+
+// TODO: in your terminal, run node emailer
